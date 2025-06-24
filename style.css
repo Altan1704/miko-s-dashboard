@@ -2,12 +2,13 @@ body {
   font-family: 'Sawarabi Mincho', serif;
   margin: 0;
   display: flex;
-  background: #fceff9;
+  background: url('wallpaper7.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .sidebar {
   width: 280px;
-  background: #fff0fa;
+  background: rgba(255, 240, 250, 0.95);
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
@@ -31,11 +32,16 @@ body {
 .main {
   padding: 20px 30px;
   flex-grow: 1;
+  background: rgba(255, 255, 255, 0.85);
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .stats {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .stat {
