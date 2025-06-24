@@ -2,7 +2,7 @@ body {
   font-family: 'Sawarabi Mincho', serif;
   margin: 0;
   display: flex;
-  background: url('wallpaper7.jpg') no-repeat center center fixed;
+  background: url('https://cdn.discordapp.com/attachments/1259851139994619976/1387020221092724806/wallpaper7.jpg?ex=685bd2be&is=685a813e&hm=d28ef300177cb77f0d3d4c7e297c03a00322c432a06d53ccbd55b10374b9e391&') no-repeat center center fixed;
   background-size: cover;
 }
 
